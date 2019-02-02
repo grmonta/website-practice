@@ -1,12 +1,32 @@
-function setup() {
+var submit;
+var input;
+var canvas;
 
+function setup() {
+  canvas = createCanvas(windowHeight,windowWidth);
+  canvas.position(0,0);
+   canvas.style("z-index", " -1");
+ 	background(50, 200, 140);
+
+  submit = select('#submit');
+  input = createInput();
+  submit.mousePressed(yooWords);
+  input.change(yooWords);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  fill(color(255, 204, 0));
-  ellipse(50, 50, 80, 80);
-  fill(color(200, 29, 0));
-  ellipse(80, 80, 20, 20);
+
 }
 
+function yooWords(){
+	let words = input.value();
+  let regex = /\b\w{3}\b/gi;
+  for (i = 0; i < words.length; i++){
+  		createP(words.replace(regex, "YOO"));
 
+  }
+}
