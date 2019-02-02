@@ -1,17 +1,14 @@
 var submit;
 var input;
-var canvas;
+
 
 function setup() {
-  canvas = createCanvas(windowHeight,windowWidth);
-  canvas.position(0,0);
-   canvas.style("z-index", " -1");
- 	background(50, 200, 140);
+  noCanvas();
 
   submit = select('#submit');
   input = createInput();
   submit.mousePressed(yooWords);
-  
+
 }
 
 function windowResized() {
