@@ -3,8 +3,10 @@ var input;
 
 
 function setup() {
-  noCanvas();
+  canvas = createCanvas(windowHeight,windowWidth);
 
+  canvas.style("z-index", " -1");
+ 	background(50, 200, 140);
   submit = select('#submit');
   input = createInput();
   submit.mousePressed(yooWords);
