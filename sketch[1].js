@@ -11,7 +11,7 @@ function setup() {
   submit = select('#submit');
   input = createInput();
   submit.mousePressed(yooWords);
-  input.change(yooWords);
+  
 }
 
 function windowResized() {
