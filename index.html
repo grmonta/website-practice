@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|Roboto"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme</title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+
+    <!-- ENTER-->
+   
+    <div class="jumbotron text-center">
+      <h1 class="display-3 mb-3 ">Hello, world!</h1>
+      <p class="lead  ">
+        I'm <strong>here</strong>! I decided to make a change in my life and now
+        I finally understand all the developer memes. In all seriousness check
+        out my little part of the World Wide Web.
+      </p>
+      <hr class="my-3" />
+      <p>
+        "Not all that wander are lost, sometimes they need to test out a couple
+        of careers first.."
+      </p>
+      <p class="lead">
+        <a class="btn btn-light btn-lg" href="#about-me" role="button">Wander In</a>
+      </p>
+    </div>
+
+
+<!--SPACE BLOCK INBETWEEN-->
+
+<section id="space-block1">
+  <div class="container  py-5">
+    <div class="row">
+      <div class="col">
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--NAVBAR -->
+<nav id="main-nav" class="navbar navbar-expand-md navbar-light sticky-top py-1  ">
+  <div class="container">
+    <a href="#home" class="navbar-brand"> <i class="fas fa-laugh-wink"></i>
+      <h3 class="d-inlin align-middle"></h3>
+    </a>
+    <button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#resources" class="nav-link">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a href="#blog" class="nav-link">Blog</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+
+<!-- HOME/ABOUT ME-->
+
+<section id="about-me">
+  <div class="container  align-content-center">
+    <div class="row">
+      <div class="col ">
+        <h1 class="display-4 ">So...Who Am I?</h1>
+        <p class="lead">Well that's actually a loaded question...but to keep it short I'm a person that is interested in
+          learning as much as possible before I say "Goodbye, world". Besides that I also get immense joy out of making
+          things aesthically pleasing and efficient.</p>
+        <p>What I can Do? </p>
+        <p>What I like to do, Mostly you'll find me with a pup curled up on my lab and a book in my hand.</p>
+
+      </div>
+
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="/img/marley.jpg" class="img-fluid mb-2" alt="Responsive image "> </div>
+
+      <div class="col-md-3">
+        <img src="/img/reggie.jpg" class="img-fluid" alt="Responsive image"></div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!--FOOTER -->
+    <footer id="main-footer" >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 ">
+            <p class="lead">Copyright &copy; <span id="year"></span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

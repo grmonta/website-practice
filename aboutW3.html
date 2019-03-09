@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-colors-2019.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/about.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="w3-container w3-2019-jester-red w3-margin-bottom">
+      <h1>Resources</h1>
+    </header>
+    <div class="w3-container w3-cell w3-2019-terrarium-moss w3-margin-top">
+      <input id="pounds" type="text" class="w3-input w3-border" />
+
+      <label for="pounds">Lbs</label>
+      <input type="text" class="w3-input w3-border" id="2oz" /><label for="two"
+        >2 oz</label
+      >
+      <input type="text" class="w3-input w3-border" id="1oz" /><label for="one"
+        >1 oz</label
+      >
+      <div class="w3-container">
+        <span
+          ><button
+            class="w3-button-t w3-2019-jester-red w3-border zW456w3-border-w3-2019-terrarium-moss "
+            id="caculate"
+          >
+            Calculate
+          </button></span
+        >
+        <span
+          ><button
+            class="w3-button-t w3-2019-jester-red w3-border zW456w3-border-w3-2019-terrarium-moss "
+            id="clear"
+          >
+            Clear
+          </button></span
+        >
+      </div>
+    </div>
+
+    <!-- HTML ENDS ABOVE HERE BELOW IS JS-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById('Demo');
+        if (x.className.indexOf('w3-show') == -1) {
+          x.className += ' w3-show';
+        } else {
+          x.className = x.className.replace(' w3-show', '');
+        }
+      }
+    </script>
+
+    <script src="js\about.js"></script>
+  </body>
+</html>
