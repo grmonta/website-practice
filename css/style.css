@@ -23,6 +23,9 @@ nav {
   margin-bottom: 20px;
 }
 
+ul {
+  display: inline;
+}
 #space-block1 {
   background-color: #121b15;
 }
