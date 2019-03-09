@@ -19,13 +19,15 @@ body {
 nav {
   background-color: #caf5e3;
   color: #121b15;
+  margin-bottom: 20px;
 }
 
 #space-block1 {
   background-color: #121b15;
 }
 
-#about-me {
+#about {
+  margin-top: 50px;
   background-color: #121b15;
   color: #caf5e3;
 }
