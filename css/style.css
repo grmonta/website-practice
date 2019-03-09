@@ -4,6 +4,7 @@ body {
 }
 
 .jumbotron {
+  margin-top: 20px;
   background-image: url('/img/coverPhoto.jpg');
   background-color: #17234e;
 
