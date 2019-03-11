@@ -14,18 +14,20 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
 
-  color: #caf5e3;
+  color: #5cff9a;
 }
 
 nav {
   background-color: #caf5e3;
-  color: #121b15;
+  color: #010803;
+
   margin-bottom: 20px;
 }
 
 ul {
   display: inline;
 }
+
 #space-block1 {
   background-color: #121b15;
 }
@@ -34,4 +36,21 @@ ul {
   margin-top: 50px;
   background-color: #121b15;
   color: #caf5e3;
+}
+
+#contact {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
 }
