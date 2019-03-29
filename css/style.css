@@ -5,7 +5,7 @@ body {
 
 .jumbotron {
   margin-top: 20px;
-  background-image: url('https://grmonta.github.io/img/marley.jpg');
+  background-image: url(website-practice/img/coverPhoto.jpg);
   background-color: #092215;
 
   height: 100%;
