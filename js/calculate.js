@@ -24,10 +24,7 @@ caculateIt = function() {
     newTwo = one / 2;
   }
 
-  console.log(newLb);
-
-  console.log(newTwo);
-  console.log(newOne);
+  
   $('#pounds').val(newLb);
   $('#2oz').val(newTwo);
   $('#1oz').val(newOne);
